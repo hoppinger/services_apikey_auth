@@ -1,0 +1,22 @@
+{
+  "name": "hoppinger/services_apikey_auth",
+  "description": "API Key Authentication Provider for Drupal Rest Resources",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/hoppinger/services_apikey_auth",
+  "authors": [
+    {
+      "name": "Ashwini Mone",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {},
+    "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}
