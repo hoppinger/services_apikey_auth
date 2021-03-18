@@ -31,6 +31,13 @@ use Drupal\services_apikey_auth\ApiKeyInterface;
  *     "collection" = "/admin/config/services/api_key",
  *     "edit-form" = "/admin/config/services/api_key/{api_key}/edit",
  *     "delete-form" = "/admin/config/services/api_key/{api_key}/delete",
+ *   },
+ *   config_export = {
+ *     "id",
+ *     "label",
+ *     "uuid",
+ *     "key",
+ *     "user_uuid"
  *   }
  * )
  */
